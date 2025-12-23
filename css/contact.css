@@ -100,3 +100,43 @@ h1{
     height: 10px;
 
 }
+.imgcontact{
+    height:900px;
+     width:100%;
+     margin-left: 0.5rem;
+     margin-right: 0.5rem;
+     margin-top: 0.5rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
+    border: solid gray;
+    border-width: 0.5px;
+    border-radius: 20px;
+    box-shadow: rgb(236, 229, 229) 5px 5px 15px 5px;
+
+}
+    
+.div1 {
+    grid-column: span 4 / span 4;
+    grid-row: span 7 / span 7;
+}
+
+.div2 {
+    grid-column: span 4 / span 4;
+    grid-row: span 7 / span 7;
+    grid-column-start: 5;
+}
+
+.div3 {
+    grid-column: span 4 / span 4;
+    grid-row: span 7 / span 7;
+    grid-column-start: 9;
+}
+        
